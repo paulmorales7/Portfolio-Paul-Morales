@@ -19,5 +19,146 @@ a{
 img{width: 100%;}
 
 .nav-container{
-    
+    background-color: #7474FF;
+
+    a{
+        color: white;
+    }
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo{
+        color: #0AFFF0;
+        font-weight: bold;
+    }
+
+    ul{
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+
+.circle{
+    width: 100px;
+    position: relative;
+    left: 7.8rem;
+    top: .5rem;
+   
+    img{
+        border-radius: 50%;
+    }
+}
+
+
+.social-header{
+    display: none;
+}
+
+.hero{
+    background: #7474FF;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+
+.meet{
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: #0afff0;
+
+    span{
+        margin-top: 1em;
+        margin-right: .5em;
+    }
+}
+
+section{
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.featured{
+    position: relative;
+}
+
+.featured::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #E2E3FF;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-weight: bold;
+ color: #870DC0;
+ letter-spacing: .2em;
+ font-size: .85em;
+}
+
+.featured-title{
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: -.4em;
+    display: block;
+}
+
+.featured-desc{
+    color: #696969;
+    margin-bottom: 3em;
+    font-size: .9em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.skills{
+    background-color: #FFA7A7;
+}
+
+.skills-container ul li{
+background: white;
+padding: 2em;
+border-radius: 1em;
+margin-bottom: 1em;
+
+.icon-container{
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+}
+
+#html, #css, #backend, #uiux{
+font-size: 40px;
+}
+
+.skill-title{
+    font-weight: bold;
+}
+
+.featured-desc{
+    margin-bottom: 2em;
+}
+}
+
+.portfolio{
+    background: #f7f7f7;
+}
+
