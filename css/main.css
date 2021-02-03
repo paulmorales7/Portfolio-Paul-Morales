@@ -234,7 +234,7 @@ section {
   .skills {
     margin-top: -4em;
   }
-  #featuredP {
+  .featured-desc {
     width: 400px;
   }
   .skills-container ul {
@@ -244,15 +244,18 @@ section {
         grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
-  .portfolio-container img {
+  .skills-container ul .skill-title {
+    padding: 10px;
+  }
+  .skills-container ul .portfolio-container img {
     margin-left: 2em;
+  }
+  .skills-container ul .featured-desc {
+    width: 100%;
   }
   .imgProject img {
-    width: 600px;
+    width: 400px;
     margin-left: 2em;
-  }
-  .featured-desc {
-    width: 300px;
   }
 }
 
@@ -318,18 +321,12 @@ section {
     width: 18em;
   }
   .right {
-    width: 650px;
+    width: 750px;
     height: 400px;
     margin-bottom: 10px;
   }
-  .inner {
-    margin-right: 10%;
-    margin-left: 10%;
-  }
   .imgProject img {
-    width: 650px;
-    margin-right: 200px;
-    margin-top: 5px;
+    width: 500px;
   }
   .right {
     width: 800px;
