@@ -208,6 +208,7 @@ font-size: 40px;
 
 .featured, .portfolio {
     text-align: left;
+
 }
 
 .featured, .portfolio-container{
@@ -249,5 +250,101 @@ grid-gap: 1em;
     margin-left: 2em;
 }
 
+.featured-desc {
+    width: 300px;
+}
 
+}
+
+@media only screen and (min-width: 1050px) {
+    .hero {
+        height: 75vh;
+    }
+
+    .nav-container {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+
+        header {
+            background: #7474FF;
+        }
+    }
+
+    header {
+        padding: 2em 2em 2em 4em;
+    }
+   
+    .social-header {
+        padding: 2em 4em 2em 0;
+    }
+
+    section {
+        padding: 4em;
+    }
+
+    .social-header {
+        display: block;
+
+        ul {
+            display: flex;
+            width: 5em;
+            float: right;
+        }
+
+        img {
+            width: 35px;
+        }
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+
+        .content {
+            background: #7474FF;
+            padding: 6em 8em 6em 4em;
+            text-align: left;
+
+            h1 {
+                font-size: 3em;
+                line-height: 1.2em;
+            }
+        }
+    }
+
+    .meet {
+        margin: unset;
+    }
+
+    .imgCircle {
+        display: unset;
+        margin-left: 97%;
+        width: 18em;
+    }
+
+    .right {
+        width: 650px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    .inner {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .imgProject img {
+        width: 650px;
+        margin-right: 200px;
+        margin-top: 5px;
+ }
+
+ .right {
+     width: 800px;
+     height: 400px;
+     margin-bottom: 10%;
+ }
 }
