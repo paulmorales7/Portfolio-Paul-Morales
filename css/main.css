@@ -327,6 +327,7 @@ section {
   }
   .imgProject img {
     width: 500px;
+    margin-left: 15%;
   }
   .right {
     width: 800px;
