@@ -226,7 +226,8 @@ section {
     width: 320px;
   }
   .portfolio .imgProject img {
-    width: 325px;
+    width: 300px;
+    margin-right: 20px;
   }
 }
 
