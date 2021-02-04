@@ -209,6 +209,27 @@ section {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 375px) {
+  .nav-container {
+    width: 500px;
+  }
+  .hero {
+    width: 400px;
+  }
+  .featured {
+    width: 400px;
+  }
+  .skills {
+    width: 420px;
+  }
+  .portfolio {
+    width: 420px;
+  }
+  .portfolio .imgProject img {
+    width: 425px;
+  }
+}
+
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left;
