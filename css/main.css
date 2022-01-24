@@ -79,16 +79,28 @@ header ul a {
 .meet {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: grid;
   margin: 0 auto;
-  width: 200px;
   font-weight: bold;
   color: #0afff0;
+}
+
+.meet p {
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 .meet span {
   margin-top: 1em;
   margin-right: 0.5em;
+  float: left;
+}
+
+.meet h3 {
+  margin-top: 5rem;
+  height: 10px;
+  width: 500px;
+  font-size: 26px;
 }
 
 section {
