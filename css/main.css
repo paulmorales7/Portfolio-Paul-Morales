@@ -248,6 +248,7 @@ button {
     width: 90%;
     margin-right: 20px;
   }
+  
 }
 
 @media only screen and (min-width: 800px) {
@@ -300,6 +301,32 @@ button {
   .imgProject img {
     width: 400px;
     margin-left: 2em;
+  }
+  
+  .meet span {
+    margin-top: 1em;
+    margin-right: 0.5em;
+    float: left;
+  }
+  
+  .meet h3 {
+    margin-top: 5rem;
+    height: 10px;
+    width: 500px;
+    font-size: 26px;
+  }
+
+  /* img.imgCircle {
+    display: none;
+
+  } */
+  
+}
+
+@media only screen and (max-width: 1049px) {
+  img.imgCircle {
+    display: none;
+
   }
 }
 
