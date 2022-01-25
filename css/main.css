@@ -98,7 +98,6 @@ header ul a {
 
 .meet h3 {
   font-size: 25px;
-  /* width: 400px; */
 }
 
 section {
@@ -269,7 +268,7 @@ button {
     place-content: center;
   }
   .right {
-    margin-left: 0.3em;
+    margin-left: 2.7em;
     margin-top: 1em;
     height: 300px;
     width: 550px;
@@ -306,19 +305,15 @@ button {
     margin-right: 0.5em;
     float: left;
   }
-  
-  /* .meet h3 {
-    margin-top: 5rem;
-    height: 10px;
-    width: 500px;
-    font-size: 26px;
-  } */
 
-  /* img.imgCircle {
-    display: none;
+  .inner {
+    margin-left: 1rem;
+  }
 
-  } */
-  
+  .portfoilio-container {
+    margin-left: 2.5rem;
+  }
+
 }
 
 @media only screen and (max-width: 1049px) {
