@@ -97,10 +97,8 @@ header ul a {
 }
 
 .meet h3 {
-  margin-top: 5rem;
-  height: 10px;
-  width: 500px;
-  font-size: 26px;
+  font-size: 25px;
+  /* width: 400px; */
 }
 
 section {
@@ -309,12 +307,12 @@ button {
     float: left;
   }
   
-  .meet h3 {
+  /* .meet h3 {
     margin-top: 5rem;
     height: 10px;
     width: 500px;
     font-size: 26px;
-  }
+  } */
 
   /* img.imgCircle {
     display: none;
@@ -327,6 +325,10 @@ button {
   img.imgCircle {
     display: none;
 
+  }
+
+  .meet h3 {
+    margin-bottom: 2 rem;
   }
 }
 
